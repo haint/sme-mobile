@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Demo Suite" parallel="tests" thread-count="5" preserve-order="true">
+
+	<test name="Test Android 4.4.2">
+		<parameter name="device" value="Android" />
+		<parameter name="browser" value="Android" />
+		<parameter name="version" value="4.4.2" />
+		<parameter name="platform" value="LINUX" />
+		<parameter name="appActivity" value="MainWithActionBar" />
+		<classes>
+			<class name="atm.demo.tests.GridTest" />
+		</classes>
+	</test>
+
+<!--
+	<test name="Test Android 4.3" >
+		<parameter name="device" value="Android" />
+		<parameter name="browser" value="Android" />
+		<parameter name="version" value="4.3" />
+		<parameter name="platform" value="LINUX" />
+		<parameter name="appActivity" value="MainWithActionBar" />
+		<classes>
+			<class name="atm.demo.tests.GridTest" />
+		</classes>
+	</test>
+	<test name="Test Android 4.2.2" >
+		<parameter name="device" value="Android" />
+		<parameter name="browser" value="Android" />
+		<parameter name="version" value="4.2.2" />
+		<parameter name="platform" value="LINUX" />
+		<parameter name="appActivity" value="MainWithActionBar" />
+		<classes>
+			<class name="atm.demo.tests.GridTest" />
+		</classes>
+	</test>
+	
+	<test name="Test Android 2.3.3" >
+		<parameter name="device" value="Selendroid" />
+		<parameter name="browser" value="Android" />
+		<parameter name="version" value="2.3.3" />
+		<parameter name="platform" value="LINUX" />
+		<parameter name="automationName" value="Selendroid"/>
+		<parameter name="api" value="10"/>
+		<parameter name="appActivity" value="MainWithActionBar" />
+		<classes>
+			<class name="atm.demo.tests.GridTest" />
+		</classes>
+	</test>
+	 	
+	<test name="Test Android 3.0" >
+		<parameter name="device" value="Selendroid" />
+		<parameter name="browser" value="Android" />
+		<parameter name="version" value="3.0" />
+		<parameter name="platform" value="LINUX" />
+		<parameter name="automationName" value="Selendroid"/>
+		<parameter name="api" value="11"/>
+		<parameter name="appActivity" value="MainWithActionBar" />
+		<classes>
+			<class name="atm.demo.tests.GridTest" />
+		</classes>
+	</test>
+	 -->
+</suite>

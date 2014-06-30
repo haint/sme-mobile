@@ -1,0 +1,18 @@
+{
+  "capabilities": [{
+      "browserName": "selendroid",
+      "maxInstances": 5,
+      "aut": "com.huy.cw.sherlock:1.0"
+  }, {
+      "browserName": "android",
+      "maxInstances": 5
+  }],
+  "configuration": {
+      "maxSession": 5,
+      "register": true,
+      "hubHost": "localhost",
+      "hubPort": 6666,
+      "remoteHost": "http://localhost:4444",
+      "proxy": "io.selendroid.grid.SelendroidSessionProxy"
+  }
+}

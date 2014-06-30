@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Demo Suite" parallel="none">
+	<test name="Sherlock on Android">
+		<classes>
+			<class name="atm.demo.tests.SelendroidTest" />
+		</classes>
+	</test>
+</suite>
